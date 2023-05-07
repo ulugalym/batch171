@@ -11,6 +11,8 @@ public class Variables01 {
            int           age                 =                                  13            ;
         System.out.println(age);
 
+
+
            //java cumlesi =>statement
         //Dilbilgisindeki nokta ne ise javadaki ";" ayni seydir, yani statement in bittigini gocsterir.
         //Eger variable declaration yapar, Assignment yapmazsaniz java kendi degerini koyar
