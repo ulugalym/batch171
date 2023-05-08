@@ -20,6 +20,8 @@ public class Variables02 {
         //Ornek : ulke ismi icin bir variable olusturun ve ekrana yazdirin
         String ulkeIsmi = "Turkiye";
         System.out.println(ulkeIsmi);
+        ulkeIsmi="Rusya";
+        System.out.println(ulkeIsmi);
 
         /*
         Iterview sorusu : "primitive" ve "non-primitive" data type'leri arasindaki fark nedir?
