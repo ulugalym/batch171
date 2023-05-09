@@ -30,5 +30,30 @@ public class WrapperClass {
         double maxDouble=Double.MAX_VALUE;
         System.out.println("maxDouble = " + maxDouble);
 
+        //ornek2: int data type'inin minimum degeri ile byte data type'nin toplamini bulun
+        int maxInt=Integer.MIN_VALUE;
+        System.out.println("maxInt = " + maxInt);
+        byte byteMax=Byte.MAX_VALUE;
+        System.out.println("byteMax = " + byteMax);
+
+        //Ornek 3: Primitive int'i Wrapper Integer'a ceviriniz(Autoboxing)
+        int num=19;
+        Integer wrapperNum=num;
+
+        //Ornek4: Wrapper byte primitive byte'a ceviriniz(Unboxing)
+        Byte k=19;
+        byte primitiveK=k;
+        //Ornek 5:
+        char ilkharf='A';
+        Character characterHarf=ilkharf;
+        char initial='T';
+        Character initialWrapper=initial;
+
+        //ornek6:
+        Boolean odev =true;
+        boolean prOdev=odev;
+        Boolean isOldWrapper=true;
+        boolean isOld=isOldWrapper;
+
     }
 }
