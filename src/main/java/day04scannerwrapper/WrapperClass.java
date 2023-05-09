@@ -21,5 +21,14 @@ public class WrapperClass {
         System.out.println("maxShort = " + maxShort);//maxShort = 32767
         short minShort=Short.MIN_VALUE;
         System.out.println("minShort = " + minShort);//minShort = -32768
+        byte maxByte=Byte.MAX_VALUE;
+        System.out.println("maxByte = " + maxByte);
+        byte minByte=Byte.MIN_VALUE;
+        System.out.println("minByte = " + minByte);
+        float maxFloat=Float.MAX_VALUE;
+        System.out.println("maxFloat = " + maxFloat);
+        double maxDouble=Double.MAX_VALUE;
+        System.out.println("maxDouble = " + maxDouble);
+
     }
 }
