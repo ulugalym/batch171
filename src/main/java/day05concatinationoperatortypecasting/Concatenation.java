@@ -1,6 +1,6 @@
 package day05concatinationoperatortypecasting;
 
-public class Concatination {
+public class Concatenation {
     public static void main(String[] args) {
         //ornek 1: Bir string ve iki int veriable olusturun. String degeri ile int lerin toplamini console'a yazdirin
         String s="elma";
@@ -27,11 +27,16 @@ public class Concatination {
 
         //ornek 2: size string olarak verilen iki fiyatin toplamini ekrana yazdiriniz
         String shirt="2300";
-        String shoes="522";
+        String shoes="5200";
         System.out.println(shirt+shoes);//23005200
+
         //Integer.valueOf() string degerini integer'a cevirir
         int toplamFiyat=Integer.valueOf(shirt)+Integer.valueOf(shoes);
         System.out.println(toplamFiyat);//7500
+        int carpma =Integer.valueOf(shirt)*Integer.valueOf(shoes);
+        System.out.println(carpma);
+       int arti= Integer.valueOf(shirt)-Integer.valueOf(shoes);
+        System.out.println(arti);
 
         //ornek3: size string olarak verilen iki fiyatin toplamini ekrana yazdiriniz
         String tv ="$1100";

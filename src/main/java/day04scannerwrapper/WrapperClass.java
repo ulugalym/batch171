@@ -3,7 +3,7 @@ package day04scannerwrapper;
 public class WrapperClass {
     public static void main(String[] args) {
          //primitive: char, boolean, byte, short, int, long, float, double
-        // Wrapper Class :Chatacter, Booleaqn, Byte, Short,Integer,Long, Float, Double
+        // Wrapper Class :Chatacter, Boolean, Byte, Short,Integer,Long, Float, Double
         
         //wrapper class'lar non-primitive'dir. o yuzdan memory'de cok yer kaplar 
         //o yuzden sart degilse Wrapper class kullanmayi tercih etmeyiz
@@ -39,21 +39,44 @@ public class WrapperClass {
         //Ornek 3: Primitive int'i Wrapper Integer'a ceviriniz(Autoboxing)
         int num=19;
         Integer wrapperNum=num;
+        int d =24;
+        Integer wrapperD=d;
+        int c=23;
+        Integer wrapperC=c;
+        int s=12;
+        Integer wrappers=s;
 
         //Ornek4: Wrapper byte primitive byte'a ceviriniz(Unboxing)
         Byte k=19;
         byte primitiveK=k;
-        //Ornek 5:
+        Byte h=34;
+        byte primitiveH=h;
+        Byte i=26;
+        byte primitiveI=i;
+        Byte t=32;
+        byte primitive =t;
+
+        //Ornek 5:Primitive char'i Wrapper Character'e ceviriniz(Autoboxing)
         char ilkharf='A';
         Character characterHarf=ilkharf;
         char initial='T';
         Character initialWrapper=initial;
+        char isiminIlkHarfi='U';
+        Character wrapperIlkHarf=isiminIlkHarfi;
+        char dogumYilininIlkSayisi='2';
+        Character wrapperIlkSayi=dogumYilininIlkSayisi;
 
-        //ornek6:
+
+        //ornek6:Wrapper Boolean'i primitive boolean'a ceviriniz(Unboxing)
         Boolean odev =true;
         boolean prOdev=odev;
         Boolean isOldWrapper=true;
         boolean isOld=isOldWrapper;
+        Boolean yedim=false;
+        boolean primitiveYedim=yedim;
+        Boolean sevdimmi=false;
+        boolean primitiveSevdimmi=sevdimmi;
+
 
     }
 }

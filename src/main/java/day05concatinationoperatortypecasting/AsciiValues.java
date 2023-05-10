@@ -21,6 +21,10 @@ public class AsciiValues {
         char c1= 'a';
         char c2='?';
         System.out.println(c1+c2);
+        int g1='u',g2='U';
+        System.out.println(g1+"="+g2);
+        char ul='U',l='l',u='u',g='g',b='b',e='e',k1='k';
+        System.out.println("U="+ul+" l="+l+" u="+u+" g="+g+" b="+b+" e="+e+" k="+k1);
         //Java'da char'lari matimatiksel islemlerde kullanirsaniz ,
         // Java o char'larin ASCII degerlerini kullanir
     }

@@ -10,10 +10,10 @@ public class Operators {
 
     2)Java'da "Logical Operator"lar vardir. AND veOR islemleri "Logical Operator"lerdir.
        cay    and    kahve   sonuc           /         cay   or    kahve    sonuc:
-       true   and    false    false          /         true  or    false    true
-       false  and    true     false          /         false  or    true     true
-       false  and    false    false          /         false  or    false    false
-       true   and    true    true            /         true   or    true     true
+       true   and    false  =  false          /         true  or     false =   true
+       false  and    true   =  false          /         false  or    true  =   true
+       false  and    false  =  false          /         false  or    false =   false
+       true   and    true   =  true            /        true   or    true  =   true
        -----------------------------------------------------------------------------
        i)Adn (&&) isleminden true alabilmek  /    ii)OR (||) isleminde bir tane true sonucu true yapmaya yeter
        icin her sey true olmalidir .         /       OR (||) isleminde sonucun false olmasi icin hersey false
