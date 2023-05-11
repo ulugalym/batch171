@@ -42,9 +42,13 @@ public class Concatenation {
         String tv ="$1100";
         String radio="$300";
         System.out.println(tv+radio);//$1100$300
+        tv=tv.replace("$","");
+        radio=radio.replace("$","");
+
+        System.out.println(tv+radio);//1100300
 
         int totalPrice=Integer.valueOf(tv)+Integer.valueOf(radio);
-        System.out.println(totalPrice);
+        System.out.println(totalPrice);//1400
         //Note :valueOf() method'u tum karakterleri rakam olan String'leri sayilara cevirir
         //Eger valueOf() method'u kullanilirkan string'in icine rakam olmayan bir karakter koyarsaniz hata alirsiniz
         //bu tarz hatalari duzeltmeyi ilerleyen derslerimizide ogrenecegiz

@@ -35,6 +35,8 @@ public class StringManipulations01Teacher {
             System.out.println(sub1);//Java
 
             //Ornek 7: "s" Stringindeki "is" kelimesini aliniz
+            String sup6=s.substring(8,12);
+            System.out.println("sup6 = " + sup6);
             String sub2=s.substring(5,7);
             System.out.println(sub2);//is
 
@@ -47,19 +49,33 @@ public class StringManipulations01Teacher {
             //substring(8,12); yerine substring(8); yazdik boylece baslangic indexinden itibaren sonuna kadar aldik
             String sub4= s.substring(8);
             System.out.println(sub4);//easy
+            String sup5=s.substring(5);
+            System.out.println("sup5 = " + sup5);
+            String sup7=s.substring(0);
+            System.out.println("sup7 = " + sup7);
 
             //Ornek 9: "s" String inde "money" kelimesinin var olup olmadigini kontrol ediniz
             boolean isExist= s.contains("money");//false
             System.out.println(isExist);
+            boolean g=s.contains("ezik");       //false
+            System.out.println("g = " + g);
+            boolean ter=s.contains("easy");
+            System.out.println("ter = " + ter);
 
             //Ornek 10: "s" String inin belli bir harfle baslayip baslamadigini kontrol ediniz.
             boolean isStart = s.startsWith("Java");
             System.out.println(isStart);//true
+            boolean fer=s.startsWith("J");
+            System.out.println("fer = " + fer);
 
             //Ornek 11:  "s" String inin 6. characterden itibaren belli bir harfle baslayip baslamadigini kontrol ediniz.
             //soru : 5. index dahil olmak uzere i karakteri ile baslayip baslamadigini kontorl eden kodu yaziniz
-            boolean isBegin =s.startsWith("i",5);
-            System.out.println(isBegin);//true
+            boolean isBegin =s.startsWith("is easy",5);
+            System.out.println("isBegin = "+isBegin);//true
+            boolean des=s.startsWith("s",10);
+            System.out.println("des = " + des);
+            boolean ser=s.startsWith("a",3);
+            System.out.println("ser = " + ser);
 
         }
 

@@ -56,10 +56,10 @@ public class StringManipulations02Teacher {
 
         String t1=t.replaceAll("[0-9]","*");
         System.out.println(t1);//Ali ** yasindadir!...
-
-
-
-
+        String t2=t.replaceAll("[adi]","b");
+        System.out.println("t2 = " + t2); // Alb 13 ybsbnbbbbr!...
+        String t3=t.replaceAll("[^a-z]","*");
+        System.out.println("t3 = " + t3);
 
 
     }
