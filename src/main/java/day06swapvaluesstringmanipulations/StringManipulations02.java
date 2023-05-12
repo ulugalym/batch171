@@ -47,8 +47,35 @@ public class StringManipulations02 {
           10)tum harflerden farkli tum character'ler ==>[^a-zA-Z]
          */
 
-       String t1= t.replaceAll("[0-9]","*");
-        System.out.println("t1 = " + t1);// Ali ** yasindadir!...
+
+        //Ornek1: "t" stringindeki tum rakamlari "*" ceviriniz
+        String t1 = t.replaceAll("[0-9]", "*");
+        System.out.println(t1);//Ali ** yasindadir!...
+
+        //Ornek 2: "t" stringindeki tum rakamlari ve harfleri "!" e ceviriniz
+        String t2 = t.replaceAll("[a-zA-Z0-9]", "!");
+        System.out.println(t2);//!!! !! !!!!!!!!!!!...
+
+        //Ornek 3: "t" stringindeki tum sesli harfleri "?" e ceviriniz
+        String t3 = t.replaceAll("[aeiouAEIOU]", "?");
+        System.out.println(t3);//?l? 13 y?s?nd?d?r!...
+
+        //Ornek 4:  "t" stringindeki kucuk harfler disindaki tum characterleri "<>" ceviriniz
+        String t4 = t.replaceAll("[^a-z]", "<>");
+        System.out.println(t4);//<>li<><><><>yasindadir<><><><>
+
+        //Ornek 5: "t" stringindeki tum harfler disindaki tum characterleri "+" ceviriniz
+        String t5 = t.replaceAll("[^a-zA-Z]", "+");
+        System.out.println(t5);//Ali++++yasindadir++++
+
+        //Ornek 6: "t" stringindeki space ler disindaki tum characterleri "?" e ceviriniz
+        String t6 = t.replaceAll("[^ ]", "?");
+        System.out.println(t6);//??? ?? ??????????????
+
+        //Ornek 7:  "t" stringindeki sesli harfler disindaki tum characterleri "&" e ceviriniz
+        String t7 = t.replaceAll("[^aeiouAEIOU]", "&");
+        System.out.println(t7);//A&i&&&&&a&i&&a&i&&&&&
+
 
     }
 }

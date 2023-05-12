@@ -55,12 +55,24 @@ public class StringManipulations02Teacher {
          */
 
         String t1=t.replaceAll("[0-9]","*");
-        System.out.println(t1);//Ali ** yasindadir!...
-        String t2=t.replaceAll("[adi]","b");
-        System.out.println("t2 = " + t2); // Alb 13 ybsbnbbbbr!...
+        System.out.println(t1);                              //Ali ** yasindadir!...
+        String t2=t.replaceAll("[a-zA-Z0-9]","!");
+        System.out.println("t2 = " + t2);                     // Alb 13 ybsbnbbbbr!...
         String t3=t.replaceAll("[^a-z]","*");
-        System.out.println("t3 = " + t3);
-
+        System.out.println("t3 = " + t3);                     //*li****yasindadir****
+        String t4=t.replaceAll("[a-zA-Z0-9]","ben");
+        System.out.println("t4 = " + t4);//benbenben benben benbenbenbenbenbenbenbenbenben!...
+        //
+        String t5=t.replaceAll("[aouieAOUYE]","?");
+        System.out.println("t5 = " + t5);//?l? 13 y?s?nd?d?r!...
+       String t6= t.replaceAll("[^a-z]","<>");
+        System.out.println("t6 = " + t6);//<>li<><><><>yasindadir<><><><>
+        String t7=t.replaceAll("[^a-zA-Z]","+");
+        System.out.println("t7 = " + t7);//Ali++++yasindadir++++
+        String t8=t.replaceAll("[^ ]","?");
+        System.out.println("t8 = " + t8);//??? ?? ??????????????
+       String t9= t.replaceAll("[^aouieAOUIE]","&");
+        System.out.println("t9 = " + t9);//A&i&&&&&a&i&&a&i&&&&&
 
     }
 }
