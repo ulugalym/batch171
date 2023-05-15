@@ -17,9 +17,10 @@ public class IfStatements {
        }
        //Ornek 2: Sayi -1 ile 10 arasinda ise ekrana "Rakam" yazdirin
         // -1<n<10 ==> n>-1 && n<10
-        int n=-5;
-       if(n>-1 || n<10){
+        int n=5;
+       if(n>-1 && n<10){
             System.out.println("Rakam");
+
        }
     }
 }
