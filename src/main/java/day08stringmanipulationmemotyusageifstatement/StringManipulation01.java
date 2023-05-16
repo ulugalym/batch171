@@ -28,7 +28,7 @@ public class StringManipulation01 {
         //isBlank() methodu sadece space iceren String'ler icin true verir, space disinda bir character var ise false verir
         //isBlank () methodu bos stringler icin de true verir
         //isBlenk() methodu space+hic birsey icin true verir
-        //isEmpty() methodu sadece hi birsey icin true verir
+        //isEmpty() methodu sadece hic birsey icin true verir
         
         //Ornek 3: Bir string'de a, i, e character'lerinin ilk gorunumlerinin indexleri toplamini ekrana yazdiriniz.
         //"Java is easy to learn"==>1+5+8==>14
