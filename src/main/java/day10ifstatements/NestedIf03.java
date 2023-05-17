@@ -14,17 +14,19 @@ public class NestedIf03 {
     "gecerli password" yazdirin degilse "gecersiz password" yazdirin
     zehirli ==> Gecerli
      */
+        //NOTE: Eger bir method'u tekrar kullanmak istiyorsaniz onu bir veriable'a atayarak  kullanmak daha makuldir
         Scanner input = new Scanner(System.in);
         System.out.println("Passwordunuzu giriniz..");
         String pwd = input.nextLine();
-        if (pwd.charAt(0)>='A'&&pwd.charAt(0)<='Z'){
-            if(pwd.charAt(0)=='A'){
+        char firstChar=pwd.charAt(0);
+        if (firstChar>='A'&&pwd.charAt(0)<='Z'){
+            if(firstChar=='A'){
                 System.out.println("Gecerli password");
             }else{
                 System.out.println("Gecersiz password cunku buyuk harf ama A degil");
             }
-        } else if (pwd.charAt(0)>='a'&&pwd.charAt(0)<='z') {
-            if(pwd.charAt(0)=='z'){
+        } else if (firstChar>='a'&&pwd.charAt(0)<='z') {
+            if(firstChar=='z'){
                 System.out.println("Gecerli password cunku kucuk harf ama z degil");
             }else{
                 System.out.println("Gecersiz password");
