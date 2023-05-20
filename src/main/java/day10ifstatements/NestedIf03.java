@@ -19,17 +19,17 @@ public class NestedIf03 {
         System.out.println("Passwordunuzu giriniz..");
         String pwd = input.nextLine();
         char firstChar=pwd.charAt(0);
-        if (firstChar>='A'&&pwd.charAt(0)<='Z'){
+        if (firstChar>='A'&&firstChar<='Z'){
             if(firstChar=='A'){
                 System.out.println("Gecerli password");
             }else{
                 System.out.println("Gecersiz password cunku buyuk harf ama A degil");
             }
-        } else if (firstChar>='a'&&pwd.charAt(0)<='z') {
+        } else if (firstChar>='a'&&firstChar<='z') {
             if(firstChar=='z'){
-                System.out.println("Gecerli password cunku kucuk harf ama z degil");
+                System.out.println("Gecerli password ");
             }else{
-                System.out.println("Gecersiz password");
+                System.out.println("Gecersiz password cunku kucuk harf ama z degil");
             }
         }else{
             System.out.println("Ilk character harf olmali..");

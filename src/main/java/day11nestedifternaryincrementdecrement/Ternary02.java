@@ -35,7 +35,7 @@ public class Ternary02 {
         System.out.println("Uc basamakli sayi giriniz");
         int p =input.nextInt();
         p=Math.abs(p);
-        String r4=p>99&&p<1000 ?"uc basamaklidir":"uc basamakli degildir";
+        String r4=p>99&&p<1000 ? p+ " uc basamaklidir": p+ " uc basamakli degildir";
         System.out.println("r4 = " + r4);
 
     }
