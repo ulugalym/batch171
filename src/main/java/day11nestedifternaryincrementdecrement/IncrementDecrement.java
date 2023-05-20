@@ -81,8 +81,8 @@ public class IncrementDecrement {
 
                 a)i=i-5;
                 b)i-=5;
-                c)eger 1 ile azaltma ==> i--
-                note:bu c sikki sadece 1 azaltmak icin kullanilir
+                c)eger 1 ile azaltma ==> i--;
+                note:bu c sikki sadece 1 azaltmak icin kullanilir  
          */
 
     }

@@ -14,7 +14,8 @@ public class Ternary01 {
             System.out.println("Kucuk degil");
         }
         //-------ternary cozumu--------
-        String sonuc=num<10  ? "Kucuk":"buyuk";
+                //Condition  ? Condition true ise calisir  :  Condition false ise calisir
+        String sonuc=num<10  ?        "Kucuk"              :          "buyuk";
         System.out.println("sonuc = " + sonuc);
         Scanner input =new Scanner(System.in);
         System.out.println("Lutfan sayi giriniz");
@@ -42,5 +43,6 @@ public class Ternary01 {
         //2.yol Ternary
         double result2=a<b? a:b;
         System.out.println("result2 = " + result2);
+
     }
 }
