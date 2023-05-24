@@ -42,7 +42,7 @@ public class Switch02 {
         }
         /*
         Note : "switch" condition parantezi icinde String, char byte, short, int kullanilabilir.
-         Note : "switch" condition parantezi icinde  long, boolean, float, double kullanilamaz.
+         Note : "switch" condition parantezi icinde  long, float, double, boolean kullanilamaz.
          */
     }
 }
