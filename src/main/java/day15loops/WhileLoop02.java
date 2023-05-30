@@ -51,7 +51,7 @@ public class WhileLoop02 {
         int o=0;
         while(o<word.length()){
             String ch=word.substring(o,o+1);
-            if(word.indexOf(o)==word.lastIndexOf(o)){
+            if(word.indexOf(ch)==word.lastIndexOf(ch)){
                 sonuc1+=ch;
             }
             o++;
