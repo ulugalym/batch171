@@ -4,7 +4,7 @@ public class Varargs02 {
     public static void main(String[] args) {
         //Example2: Verilen isimlerin ilk harflerini konsole yazdiran kodu method'u olusturunuz.
         //         Ali Can===>AC Kemal Han==> KH
-        getInitials("Ali Can","Kemal Han");
+        getInitials("Ali Can","Kemal Han","Omer Can","Mehmet Tan");
     }
     public static void getInitials(String... s){
         String initials="";
