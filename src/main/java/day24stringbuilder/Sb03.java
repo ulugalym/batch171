@@ -15,11 +15,13 @@ public class Sb03 {
         3 tane String olusturan Class ogrendik:
           1)immutable String lazimsa: String Class
           2)mutable String lazimsa: StringBuilder veya StringBuffer
-                   a)StringBuilderi"multi-thread" gerekirse kullaniriz
+                   a)StringBuilderi"multi-thread" gerekmesse kullaniriz
                    b)StringBufferi"multi-thread" gerekirse kullaniriz   */
 
         StringBuffer sbf=new StringBuffer("Java");
         System.out.println(sbf);
+        sbf.trimToSize();
         System.out.println(sbf.capacity());
+
     }
 }
